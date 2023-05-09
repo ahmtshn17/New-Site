@@ -1,0 +1,23 @@
+#news-article .grid-container {
+  grid-template-columns: 1fr;
+  grid-template-rows: 5fr 1fr 1fr;
+}
+
+#news-content {
+  grid-row: 1;
+}
+
+#join {
+  grid-row: 2;
+}
+
+#join .btn-dark {
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+  justify-self: end;
+}
+
+#categories {
+  grid-row: 3;
+}
